@@ -1,0 +1,649 @@
+.vardhan {
+    background-image: url("./task7.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -75px !important;
+}
+
+.navbar-custom {
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.logo {
+    width: 200px;
+
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.con {
+    padding-top: 30%;
+}
+
+.get {
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1% 3% 1% 3%;
+    margin-right: 3%;
+
+}
+
+.title a {
+    text-decoration: none !important;
+}
+
+#darkmode-button {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    display: grid;
+    place-items: center;
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .home_cards {
+        margin-bottom: 10px;
+    }
+
+    .center-icon img {
+        width: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:991px) {
+    .navbar {
+        background-color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+
+    .nav_conainer {
+        padding: 10px;
+
+    }
+}
+
+.ced {
+    width: 70%;
+    padding-left: 40%;
+}
+
+
+.home_cards {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none !important;
+}
+
+/* -------down priceplan css--------- */
+.home_card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none !important;
+}
+
+.mon:hover {
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.07);
+    transition: ease 1s;
+}
+
+.icon-img {
+    width: 100px;
+    height: 70px;
+}
+
+.icon-img:hover {
+    transform: scale(1.07);
+    transition: ease 1s;
+
+}
+
+.main-icon {
+    width: 120%;
+    border-radius: 30px;
+
+}
+
+.matter {
+    font-size: 40px;
+}
+
+.cl {
+    color: rgb(236, 139, 11);
+    font-size: 20px;
+}
+
+.main-icon:hover {
+    transform: scale(1.07);
+    transition: 0.5s;
+
+}
+
+.icon-img2 {
+    width: 140px;
+    height: 80px;
+    padding-left: 50px;
+
+}
+
+.icon-img2:hover {
+    transform: scale(1.07);
+    transition: ease 1s;
+
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.inner-img {
+    transition: 0.3s;
+}
+
+.inner-img:hover {
+    transform: scale(1.1);
+}
+
+.uday {
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+}
+
+.nith {
+    text-decoration: none;
+    color: black;
+}
+
+.nithi {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.menu_open {
+    color: #fff;
+    padding: 8px;
+}
+
+.menu_submenu {
+    background-color: #fff;
+    padding: 12px;
+    position: absolute;
+    top: 46px;
+    display: none;
+}
+
+.menu_open:hover .menu_submenu {
+    display: block;
+}
+
+.price h2 {
+    margin: 0;
+    padding: 20px;
+    color: black;
+    font-size: 60px;
+}
+
+.price {
+    padding-left: 90px;
+    position: relative;
+}
+
+.icons_li {
+    list-style: none;
+}
+
+.bun {
+    text-decoration: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(193, 195, 225), rgb(78, 74, 196));
+    position: relative;
+    border: none;
+    font-size: 20px;
+    font-weight: 40px;
+
+
+}
+
+.testimonial_item {
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border-width: 0px;
+    box-shadow: 0px 2px 8px 0px;
+
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 26%;
+    /* height: 50px; */
+}
+
+.stars {
+    padding-left: 10px;
+    color: rgb(226, 147, 0);
+}
+
+.bg-image {
+    background-image: url("	https://zrtechsolutions.com/demo/html/technoit/assets/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    background-size: 1500px 900px;
+}
+
+.sec_7 {
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.our_clients {
+    transition: 0.3s;
+    filter: grayscale(1);
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.img_sec {
+    max-width: 150px !important;
+    height: 100px;
+}
+
+.sec_header {
+    margin: 0px;
+    color: orange;
+    font-size: large;
+}
+
+.social {
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50% !important;
+    padding: 0 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.members h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.members p {
+    font-style: italic;
+    display: block;
+    font-size: 14px;
+    color: #000;
+}
+
+.img-fluid:hover {
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+
+
+
+.cta-btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 48px;
+    background: linear-gradient(rgb(204, 204, 211));
+    color: #9b1919;
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+
+.blog_sec a {
+    text-decoration: none !important;
+
+}
+
+.blog_card {
+    border: none !important;
+}
+
+.blog_img {
+    border-radius: 10px;
+    transition: 0.3s !important;
+}
+
+.blog_1 :hover {
+
+    transform: scale(1.1) !important;
+}
+
+.section {
+    padding: 60px 0;
+    overflow: hidden;
+    background: #fff;
+}
+
+.row {
+    display: flex;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+
+.contact-form button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: primary;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 35px;
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 0;
+    color: white;
+    background-image: linear-gradient(to right, rgba(28, 8, 241, 0.696), rgba(28, 8, 241, 0.696)) !important;
+    padding-left: 20px;
+}
+
+.form-control {
+    font-size: 15px;
+    width: 100%;
+    border: none !important;
+    padding: 10px 20px;
+    color: #fff;
+    height: 51px;
+    border-radius: 8px;
+    transition: all 0.4s;
+    background: #f1f0f0 !important;
+}
+
+.contact-section .contact-form .form-group {
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    background-size: cover;
+    padding: 60px 0;
+    border-radius: 0px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.service-widget .list a {
+    text-decoration: none;
+}
+
+.service-widget .list {
+    list-style-type: none;
+}
+
+.footer-social-icon a {
+    text-decoration: none !important;
+}
+
+.copyright-text a {
+    text-decoration: none !important;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 24px;
+    background: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    color: black;
+    outline: none !important;
+    border-radius: 30px;
+}
+
+.subscribe-form button {
+    color: white;
+    font-size: 30px;
+    border: none !important;
+    border-radius: 50px;
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    background-color: blue;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+
+.footer-social-icon {
+    font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+/* 
+  .nav.nav_conainer.sticky_menu{
+    background: #f1f0f0;
+} */
+
+.accordion-item {
+    border: 1px solid gray !important;
+    background: #f0f0f0 !important;
+    margin-bottom: 10px;
+}
+
+.navbar.scrolled {
+    background-color: #fff;
+    /* Change this to your desired color */
+}
+
+.navbar.scrolled .nav-link {
+    color: black !important;
+    /* Change to your desired color when scrolled */
+}
+
+.bg-image1 {
+    background-image: url("https://zrtechsolutions.com/demo/html/technoit/assets/images/hero-bg.png");
+    height: 70VH;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed !important;
+    ;
+}
+
+.sec_fields {
+    background-image: url("https://zrtechsolutions.com/demo/html/technoit/assets/images/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed !important;
+    padding: 50px 0px;
+}
+.sec_fields h5{
+    color: blue;
+}
+.sec_fields p{
+    color: white;
+}
+
+@media screen and (max-width:991px) {
+    .matter {
+        font-size: 28px;
+    }
+
+    .cl {
+        font-size: 13px;
+    }
+
+    .choose_mat {
+        font-size: 20px;
+    }
+
+    .choose-p {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-img {
+        width: 45px;
+        height: 44px;
+    }
+
+    .icon-img2 {
+        padding: 0px;
+        height: 60px;
+        width: 90px;
+    }
+
+    .choose_mat1 {
+        font-size: 21px;
+
+    }
+
+    .choose_usp {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .heading {
+        font-size: 32px;
+    }
+
+    .uday {
+        width: 133px;
+        height: 42px;
+        font-size: 14px;
+        margin-bottom: 14px;
+        font-weight: bold;
+
+    }
+
+    .img-wrapper {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .home_card {
+        width: 291px;
+
+    }
+
+    .price_sym {
+        font-size: 50px;
+
+    }
+
+}
+@media screen and (max-width:991px){
+    .testimonial-wrap{
+        width: 298px;
+        height: 321px;
+        padding: 16px;
+        margin-bottom: 69px;
+    }
+    
+}
+@media screen and (max-width:991px){
+    .img-fluid{
+        width: 99%;
+        border-radius: 20px;
+
+    }
+
+}
